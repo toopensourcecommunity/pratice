@@ -1,3 +1,7 @@
+/*
+ * Custom method comment.
+ * */
+
 package com.git.learn;
 
 public class Student {
@@ -57,4 +61,7 @@ public class Student {
 	}
 	
 	
+	
+	public void customMethod(){
+	}
 }
