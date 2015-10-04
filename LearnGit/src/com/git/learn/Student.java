@@ -1,3 +1,7 @@
+/*
+ * Custom method comment.
+ * */
+
 package com.git.learn;
 
 public class Student {
@@ -32,5 +36,8 @@ public class Student {
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		return result;
+	}
+	
+	public void customMethod(){
 	}
 }
